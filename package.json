@@ -1,0 +1,33 @@
+{
+  "name": "highpass",
+  "version": "1.0.0",
+  "description": "highpass.co.uk source code",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robzor/highpass.git"
+  },
+  "author": "Robin Hodges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robzor/highpass/issues"
+  },
+  "homepage": "https://github.com/robzor/highpass#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-pixrem": "^1.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "jshint": "^2.9.4"
+  }
+}
