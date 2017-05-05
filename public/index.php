@@ -17,7 +17,7 @@
 			<p>I'm currently <strong class="site-header__availability-status">available</strong> for project consultancy and website/applications builds.</p>
 			<p>hi at highpass dot co dot uk</p>
 		</div>
-	</header>http://twobirdsbridesmaid.com/
+	</header>
 
 	<main class="site-body" role="main">
 		<article class="project project--media-right" itemscope itemtype="http://schema.org/SoftwareApplication">
