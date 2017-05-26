@@ -1,0 +1,31 @@
+//
+// Rem Sizing mixin
+//
+//***********************************************************************/
+//=======================================================================================
+// rem function, accepts px returns rem (Px fallback handled by pixrem)
+// e.g. @include rem(width, 32px 8px 0 16px); = width: 2rem .5rem 0 1rem;
+// e.g. @include rem(height, 16px); = height: 1rem;
+//=======================================================================================
+@function parseInt($n) {
+	@return $n / ($n * 0 + 1);
+}
+
+@mixin rem($property, $values) {
+	$rem: ();
+
+	@each $value in $values {
+		@if $value == 0 or $value == 0px or $value == auto
+		{
+			$rem: append($rem, $value);
+		}
+		@else
+		{
+			$val: parseInt($value);
+			$rem: append($rem, ($val / 16 + rem));
+		}
+	}
+
+	#{$property}: $rem;
+
+}

@@ -1,0 +1,17 @@
+//
+// Site Header (.site-header)
+//
+//***********************************************************************/
+.site-header {  }
+	.site-header__title { text-align: center; @include rem(margin, 0 0 20px); }
+		.site-header__logo-img { }
+		.site-header__logo-txt {
+			$map: (320px: 40px, 760px: 48px, 900px: 60px);
+			@include poly-fluid-sizing('font-size', $map);
+			font-family: $font-logo;
+		}
+
+	.site-header__intro { }
+
+	.site-header__contact { }
+		.site-header__availability-status { }

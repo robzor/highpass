@@ -1,0 +1,45 @@
+//
+// Helper classes
+//
+//***********************************************************************/
+
+// Auto float clearing
+//*************************************************************************/
+.group:before,
+.group:after { content: ""; display: table; }
+.group:after { clear: both; }
+
+// hasLayout fix for < IE8 */
+.lt-ie8 .group { zoom: 1; }
+
+// Super classes
+//*************************************************************************/
+.u-caps { text-transform: uppercase; }
+.u-sent { text-transform: capitalize; }
+.u-hide { display: none; }
+.u-last { margin-right: 0 !important; }
+.u-txt-left { text-align: left; }
+.u-txt-right { text-align: right; }
+.u-txt-center { text-align: center; }
+.u-list-clear { clear: both; }
+.u-screen-reader { display: block !important; left: -9999em !important; position: absolute !important; top: -9999em !important; }
+.u-img-responsive-width { width: 100%; }
+.u-font-heading { font-family: $font-heading; }
+.u-font-body { font-family: $font-body; }
+.u-font-weight-normal { font-weight: normal; }
+
+.u-object-fit--contain { display: block; object-fit: contain; }
+.u-object-fit--fill { display: block; object-fit: fill; }
+.u-object-fit--cover { display: block; object-fit: cover; }
+
+// Accessibility */
+.u-skipto { position: absolute; left: -999em; }
+	.u-skipto a {
+		margin: 5px 10px;
+		display: block;
+		padding: 3px;
+
+		&:focus { background: $colour-primary; color: #fff; }
+	}
+
+.u-accessible-offscreen { position:absolute; left:-10000em; }

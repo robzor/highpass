@@ -1,0 +1,51 @@
+//
+//	Base rules and classes
+//
+//***********************************************************************/
+html {
+	background: $colour-background;
+	font-size: 1em;
+	font-family: $font-body;
+	color: $colour-body;
+	font-kerning: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-tap-highlight-color: transparent;
+	text-rendering: optimizeLegibility;
+	min-width: 320px;
+}
+
+// TypeKit class to combat FOUT
+html.wf-loading {
+	li, p, h1, h2, h3, h4, h5 {
+		visibility: hidden;
+	}
+}
+
+body { @include font-size(16); line-height: 1.4; }
+
+// Links
+a {	color: inherit; text-decoration: underline dotted; }
+
+	a:hover, a:focus, a:active { color: $colour-primary; }
+	a:hover, a:active { outline: 0; }
+
+// Headings
+h1, h2, h3, h4, h5 {
+	line-height: 1.2;
+	font-family: $font-heading;
+	font-size: inherit;
+	font-weight: normal;
+}
+
+h1, .h1 { @include font-size(20); }
+h2, .h2 { @include font-size(18); }
+h3, .h3 { @include font-size(16); }
+h4, .h4 { @include font-size(14); }
+
+// Text defaults
+strong { font-weight: $font-weight--bold; }
+em { font-style: italic; }
+
+// Images
+img { display: none; vertical-align: bottom; max-width: 100%; height: auto; }

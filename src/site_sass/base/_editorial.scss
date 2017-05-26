@@ -1,0 +1,56 @@
+//
+// Editorial styles (.editorial)
+//
+//***********************************************************************/
+// Editorial styles (.editorial)
+//
+//*************************************************************************/
+.editorial { }
+
+.editorial h1,
+.editorial h2,
+.editorial h3,
+.editorial h4,
+.editorial h5 { @include rem(margin-bottom, 12px); }
+
+// Links
+.editorial a { color: $colour-primary; }
+	.editorial a:hover { color: $colour-body; }
+
+.editorial p { @include font-size(16); @include rem(margin-bottom, 16px); line-height: 1.5; }
+
+.editorial ul, .editorial ol { @include font-size(16); @include rem(margin, 0 0 12px 20px); }
+
+.editorial li { list-style-position: outside; @include rem(padding, 3px 0); }
+	.editorial ul li { list-style: disc; }
+	.editorial ol li { list-style: decimal; }
+
+	.editorial ul ul, .editorial ol ol { font-size: 1em; }
+	.editorial ul ul li { list-style: circle; }
+
+ul.al-anchor-list { @include rem(margin-bottom, 8px); }
+ul.al-anchor-list li { list-style: square; @include rem(padding, 1px 0); }
+
+.editorial img { display: inline; border-top: 4px solid $colour-secondary; @include rem(margin-bottom, 15px); }
+
+	.editorial .img_left { float: left; @include rem(margin, 0 15px 15px 0px); }
+	.editorial .img_right { float: right; @include rem(margin, 0 0 15px 15px); }
+
+.editorial .ed-img { display: block; @include rem(margin, 15px); }
+
+.editorial .standFirst { @include font-size(18); font-weight: bold; }
+
+// Editorial table styles */
+.editorial table { width: 100%; @include font-size(13); text-align: left; border: 1px solid $colour-primary; border-width: 1px 0 2px; @include rem(margin, 0 0 12px); }
+
+	// Headings */
+	.editorial table tr th { font-weight: bold; background: #fff; border-bottom: 2px solid $colour-secondary; @include rem(padding, 8px); }
+
+	// Rows */
+	.editorial table td { background: lighten(desaturate($colour-secondary, 15%), 55%); @include rem(padding, 7px 8px); vertical-align: middle; border-bottom: 1px solid #fff; }
+	.editorial table tr:nth-child(odd) td { background:lighten(desaturate($colour-primary, 25%), 65%); }
+
+// editorial iFrame styles */
+.editorial iframe.noscroll {
+	overflow-y: hidden;
+}

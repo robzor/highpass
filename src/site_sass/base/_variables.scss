@@ -1,0 +1,50 @@
+//
+// Site variables
+//
+//***********************************************************************
+
+//
+// Fonts
+//
+// Font stacks
+$didact-gothic: 'Didact Gothic', sans-serif;
+$reem-kufi: 'Reem Kufi', sans-serif;
+$system-font: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+
+// Font assignments
+$font-body: $system-font;
+$font-heading: $reem-kufi;
+$font-logo: $didact-gothic;
+$font-weight--bold: 600;
+
+//
+// Colours
+//
+// Base Colours
+$white: rgb(255,255,255);
+$off-black: rgb(74,74,74);
+$off-white: rgb(253,253,253);
+$off-off-black: rgb(170,170,170);
+
+// Greys
+$grey: #58595B;
+$grey--med: #d5d5d5;
+$grey--dark: #373B3B;
+$grey--light: #E6E7E8;
+
+// Colour Assignments
+$colour-background: $white;
+$colour-primary: $off-black; // Headings
+$colour-secondary: $off-black; // Links/Borders
+$colour-body: $off-black;
+$colour-border: $grey--med;
+$colour-border--alt: $grey;
+$colour-interface-controls: $off-off-black;
+// Buttons
+$colour-button-bg: $grey;
+$colour-button-txt: $white;
+
+// Optional colour assignments
+//****************************
+$grey--v-light: lighten($grey, 40%);
+$grey--alt: #999;

@@ -1,0 +1,17 @@
+//
+// Project (.project)
+//
+//***********************************************************************/
+.project { @include rem(margin, 20px 0); }
+
+	.project--media-right { }
+	.project--media-left { }
+
+	.project__title { }
+
+	.project__body { }
+		.project__media { }
+			.project__media-description { display: none; }
+
+		.project__copy { }
+			.project__link { }

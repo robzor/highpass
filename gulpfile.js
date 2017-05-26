@@ -36,7 +36,7 @@ gulp.task('scripts', function() {
   return gulp.src(paths.scripts)
     .pipe(plumber())
     .pipe(concat('global.js'))
-    .pipe(gulp.dest('public/assets/build/site_js/'))
+    .pipe(gulp.dest('public/assets/site_js/'))
     .pipe(livereload());
 });
 
@@ -45,28 +45,28 @@ gulp.task('vendor_head_scripts', function() {
   return gulp.src(paths.vendor_head_scripts)
     .pipe(plumber())
     .pipe(concat('vendor-head.js'))
-    .pipe(gulp.dest('public/assets/build/site_js/vendor/'))
+    .pipe(gulp.dest('public/assets/site_js/vendor/'))
     .pipe(livereload());
 });
 gulp.task('vendor_foot_scripts', function() {
   return gulp.src(paths.vendor_foot_scripts)
     .pipe(plumber())
     .pipe(concat('vendor-foot.js'))
-    .pipe(gulp.dest('public/assets/build/site_js/vendor/'))
+    .pipe(gulp.dest('public/assets/site_js/vendor/'))
     .pipe(livereload());
 });
 
 // Clean css build folder (in case Sass errors)
 gulp.task('clean-css', function() {
   del([
-    'public/assets/build/site_css/**'
+    'public/assets/site_css/**'
   ]);
 });
 
 // Clean js folder
 gulp.task('clean-js', function() {
   del([
-    'public/assets/build/site_js/**'
+    'public/assets/site_js/**'
   ]);
 });
 
@@ -78,7 +78,7 @@ gulp.task('sass', function() {
     .pipe(sass({ style: 'expanded', "sourcemap=none": true }))
     .pipe(autoprefixer('> 1%', 'last 2 versions', 'Firefox ESR', 'ie 7', 'ie 8', 'ie 9', 'Opera 12.1', 'Android 4'))
     .pipe(pixrem({ atrules: true }))
-    .pipe(gulp.dest('public/assets/build/site_css/'))
+    .pipe(gulp.dest('public/assets/site_css/'))
     .pipe(livereload());
 });
 

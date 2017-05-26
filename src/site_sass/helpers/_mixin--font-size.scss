@@ -1,0 +1,7 @@
+//
+//  Font Size mixin
+//	Font size in rem, stated in px (pixelrem will post-process the px fallback)
+//***********************************************************************/
+@mixin font-size($sizeValue) {
+	font-size: ($sizeValue / 16) + rem;
+}
