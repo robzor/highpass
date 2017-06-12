@@ -3,6 +3,10 @@
 <head>
 	<title>highpass -- Robin Hodges, Senior Front-End Developer</title>
 
+	<!--
+		Oh hello there, you can see the source of this website at https://github.com/robzor/highpass
+	 -->
+
 	<!-- Standard SEO -->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="referrer" content="always" />
