@@ -3,6 +3,290 @@
 <head>
 	<title>highpass -- Robin Hodges, Senior Front-End Developer</title>
 
+	<!-- Standard SEO -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="referrer" content="always" />
+	<meta name="robots" content="all" />
+	<meta name="keywords" content="web development, brighton, hove, consultancy, front-end, developer" />
+	<meta name="description" content="I'm Robin Hodges, a Senior Front-End Developer, Craft CMS specialist and solution architect with 10 years experience across various industries." />
+	<meta name="generator" content="SEOmatic" />
+	<link rel="canonical" href="https://highpass.co.uk/" />
+	<meta name="geo.region" content="Brighton" />
+	<meta name="geo.placename" content="highpass" />
+
+	<!-- Dublin Core basic info -->
+	<meta name="dcterms.Identifier" content="https://highpass.co.uk/" />
+	<meta name="dcterms.Format" content="text/html" />
+	<meta name="dcterms.Relation" content="highpass -- Robin Hodges, Senior Front-End Developer" />
+	<meta name="dcterms.Language" content="en" />
+	<meta name="dcterms.Publisher" content="highpass -- Robin Hodges, Senior Front-End Developer" />
+	<meta name="dcterms.Type" content="text/html" />
+	<meta name="dcterms.Coverage" content="https://highpass.co.uk/" />
+	<meta name="dcterms.Rights" content="Copyright &copy;2017 highpass." />
+	<meta name="dcterms.Title" content="Home" />
+	<meta name="dcterms.Creator" content="Robin Hodges" />
+	<meta name="dcterms.Subject" content="web development, brighton, hove, consultancy, front-end, developer" />
+	<meta name="dcterms.Contributor" content="highpass -- Robin Hodges, Senior Front-End Developer" />
+	<meta name="dcterms.Date" content="2017-06-12" />
+	<meta name="dcterms.Description" content="I'm Robin Hodges, a Senior Front-End Developer, Craft CMS specialist and solution architect with 10 years experience across various industries." />
+
+	<!-- Facebook OpenGraph -->
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="en_gb" />
+	<meta property="og:url" content="https://highpass.co.uk/" />
+	<meta property="og:title" content="highpass -- Robin Hodges, Senior Front-End Developer" />
+	<meta property="og:description" content="I'm Robin Hodges, a Senior Front-End Developer, Craft CMS specialist and solution architect with 10 years experience across various industries." />
+	<meta property="og:image" content="https://highpass.co.uk/assets/site_images/logo-site.png" />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:width" content="630" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:site_name" content="highpass -- Robin Hodges, Senior Front-End Developer" />
+	<meta property="og:see_also" content="https://twitter.com/highpassdesign" />
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@highpassdesign" />
+	<meta name="twitter:title" content="highpass -- Robin Hodges, Senior Front-End Developer" />
+	<meta name="twitter:description" content="I'm Robin Hodges, a Senior Front-End Developer, Craft CMS specialist and solution architect with 10 years experience across various industries." />
+	<meta name="twitter:image" content="https://highpass.co.uk/assets/site_images/logo-site.png" />
+
+	<!-- Humans.txt authorship http://humanstxt.org -->
+	<link type="text/plain" rel="author" href="/humans.txt" />
+
+	<!-- Domain verification -->
+	<meta name="google-site-verification" content="feRH-Go7UXbnH_PIKmlHzj-GWSMq1e2vYMjdps399Yg" />
+
+	<!-- Identity -->
+	<script type="application/ld+json">
+	{
+	    "@context": "http://schema.org",
+	    "@type": "Corporation",
+	    "name": "highpass",
+	    "url": "https://highpass.co.uk/",
+	    "sameAs": ["https://twitter.com/highpassdesign"],
+	    "image": {
+	        "@type": "ImageObject",
+	        "url": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	        "height": "630",
+	        "width": "630"
+	    },
+	    "address": {
+	        "@type": "PostalAddress",
+	        "addressRegion": "Brighton",
+	        "addressCountry": "United Kingdom"
+	    },
+	    "logo": {
+	        "@type": "ImageObject",
+	        "url": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	        "height": "630",
+	        "width": "630"
+	    },
+	    "location": {
+	        "@type": "Place",
+	        "name": "highpass",
+	        "image": {
+	            "@type": "ImageObject",
+	            "url": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	            "height": "630",
+	            "width": "630"
+	        },
+	        "logo": {
+	            "@type": "ImageObject",
+	            "url": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	            "height": "630",
+	            "width": "630"
+	        },
+	        "url": "https://highpass.co.uk/",
+	        "sameAs": ["https://twitter.com/highpassdesign"],
+	        "address": {
+	            "@type": "PostalAddress",
+	            "addressRegion": "Brighton",
+	            "addressCountry": "United Kingdom"
+	        }
+	    }
+	}
+	</script>
+
+	<!-- WebSite -->
+	<script type="application/ld+json">
+	{
+	    "@context": "http://schema.org",
+	    "@type": "WebSite",
+	    "name": "highpass -- Robin Hodges, Senior Front-End Developer",
+	    "description": "I'm Robin Hodges, a Senior Front-End Developer, Craft CMS specialist and solution architect with 10 years experience across various industries.",
+	    "url": "https://highpass.co.uk/",
+	    "image": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	    "sameAs": ["https://twitter.com/highpassdesign"],
+	    "copyrightHolder": {
+	        "@type": "Corporation",
+	        "name": "highpass",
+	        "url": "https://highpass.co.uk/",
+	        "sameAs": ["https://twitter.com/highpassdesign"],
+	        "image": {
+	            "@type": "ImageObject",
+	            "url": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	            "height": "630",
+	            "width": "630"
+	        },
+	        "address": {
+	            "@type": "PostalAddress",
+	            "addressRegion": "Brighton",
+	            "addressCountry": "United Kingdom"
+	        },
+	        "logo": {
+	            "@type": "ImageObject",
+	            "url": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	            "height": "630",
+	            "width": "630"
+	        },
+	        "location": {
+	            "@type": "Place",
+	            "name": "highpass",
+	            "image": {
+	                "@type": "ImageObject",
+	                "url": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	                "height": "630",
+	                "width": "630"
+	            },
+	            "logo": {
+	                "@type": "ImageObject",
+	                "url": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	                "height": "630",
+	                "width": "630"
+	            },
+	            "url": "https://highpass.co.uk/",
+	            "sameAs": ["https://twitter.com/highpassdesign"],
+	            "address": {
+	                "@type": "PostalAddress",
+	                "addressRegion": "Brighton",
+	                "addressCountry": "United Kingdom"
+	            }
+	        }
+	    },
+	    "author": {
+	        "@type": "Corporation",
+	        "name": "highpass",
+	        "url": "https://highpass.co.uk/",
+	        "sameAs": ["https://twitter.com/highpassdesign"],
+	        "image": {
+	            "@type": "ImageObject",
+	            "url": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	            "height": "630",
+	            "width": "630"
+	        },
+	        "address": {
+	            "@type": "PostalAddress",
+	            "addressRegion": "Brighton",
+	            "addressCountry": "United Kingdom"
+	        },
+	        "logo": {
+	            "@type": "ImageObject",
+	            "url": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	            "height": "630",
+	            "width": "630"
+	        },
+	        "location": {
+	            "@type": "Place",
+	            "name": "highpass",
+	            "image": {
+	                "@type": "ImageObject",
+	                "url": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	                "height": "630",
+	                "width": "630"
+	            },
+	            "logo": {
+	                "@type": "ImageObject",
+	                "url": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	                "height": "630",
+	                "width": "630"
+	            },
+	            "url": "https://highpass.co.uk/",
+	            "sameAs": ["https://twitter.com/highpassdesign"],
+	            "address": {
+	                "@type": "PostalAddress",
+	                "addressRegion": "Brighton",
+	                "addressCountry": "United Kingdom"
+	            }
+	        }
+	    },
+	    "creator": {
+	        "@type": "Organization",
+	        "name": "Robin Hodges",
+	        "location": {
+	            "@type": "Place",
+	            "name": "Robin Hodges"
+	        }
+	    }
+	}
+	</script>
+
+	<!-- Place -->
+
+	<script type="application/ld+json">
+	{
+	    "@context": "http://schema.org",
+	    "@type": "Place",
+	    "name": "highpass",
+	    "image": {
+	        "@type": "ImageObject",
+	        "url": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	        "height": "630",
+	        "width": "630"
+	    },
+	    "logo": {
+	        "@type": "ImageObject",
+	        "url": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	        "height": "630",
+	        "width": "630"
+	    },
+	    "url": "https://highpass.co.uk/",
+	    "sameAs": ["https://twitter.com/highpassdesign"],
+	    "address": {
+	        "@type": "PostalAddress",
+	        "addressRegion": "Brighton",
+	        "addressCountry": "United Kingdom"
+	    }
+	}
+	</script>
+
+	<!-- Main Entity of Page -->
+
+	<script type="application/ld+json">
+	{
+	    "@context": "http://schema.org",
+	    "@type": "ProfessionalService",
+	    "name": "Home",
+	    "description": "I'm Robin Hodges, a Senior Front-End Developer, Craft CMS specialist and solution architect with 10 years experience across various industries.",
+	    "image": {
+	        "@type": "ImageObject",
+	        "url": "https://highpass.co.uk/assets/site_images/logo-site.png",
+	        "width": "630",
+	        "height": "630"
+	    },
+	    "url": "https://highpass.co.uk/",
+	    "mainEntityOfPage": "https://highpass.co.uk/"
+	}
+	</script>
+
+	<!-- Breadcrumbs -->
+
+	<script type="application/ld+json">
+	{
+	    "@context": "http://schema.org",
+	    "@type": "BreadcrumbList",
+	    "itemListElement": [
+	        {
+	            "@type": "ListItem",
+	            "position": "1",
+	            "item": {
+	                "@id": "https://highpass.co.uk/",
+	                "name": "Home"
+	            }
+	        }
+	    ]
+	}
+	</script>
+
 	<link href="//fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
 	<link rel="stylesheet" href="/assets/site_css/global.css">
 </head>
