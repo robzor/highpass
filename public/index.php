@@ -7,6 +7,8 @@
 		Oh hello there, you can see the source of this website at https://github.com/robzor/highpass
 	 -->
 
+ 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 	<!-- Standard SEO -->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="referrer" content="always" />
