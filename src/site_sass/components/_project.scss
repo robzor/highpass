@@ -2,45 +2,57 @@
 // Project (.project)
 //
 //***********************************************************************/
-.project { @include rem(margin, 100px 0); display: flex; }
+.project { @include rem(padding, 50px 0); display: flex; position: relative; }
 
+	// Border seperator
+	.project:after {
+		content: "";
+		border-bottom: 1px dotted $colour-border;
+		height: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
 
-.project__media:after {
-    content: "";
-    width: 0;
-    height: 0;
-	border-style: solid;
-	border-width: 0 100px 500px 0;
-	border-color: rgba(255,255,255,0) rgba(255,255,255,1) rgba(255,255,255,0) rgba(255,255,255,0);
-	transform: rotate(360deg);
-	z-index: 2;
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-
-.project--media-right .project__media:after {
-    content: "";
-    width: 0;
-    height: 0;
-	border-style: solid;
-	border-width: 500px 100px 0 0;
-	border-color: rgba(255,255,255,1) rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0);
-	transform: rotate(360deg);
-	z-index: 2;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-
+	// Title
 	.project__title { @include font-size(30); line-height: 1; @include rem(margin-bottom, 20px); }
 
-		.project__media { position: relative; z-index: 1; overflow: hidden; }
+		.project__media { position: relative; z-index: 1; overflow: hidden; max-width: 600px; }
 			.project__media-img { }
 			.project__media-description { display: none; }
 
-		.project__copy { @include rem(margin, 0 40px); max-width: 690px; }
+			// White triangle cover
+			.project__media:after {
+			    content: "";
+			    width: 0;
+			    height: 0;
+				border-style: solid;
+				border-width: 0 100px 500px 0;
+				border-color: rgba(255,255,255,0) rgba(255,255,255,1) rgba(255,255,255,0) rgba(255,255,255,0);
+				transform: rotate(360deg);
+				z-index: 2;
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+
+			// White triangle cover alt
+			.project--media-right .project__media:after {
+				content: "";
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 500px 100px 0 0;
+				border-color: rgba(255,255,255,1) rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0);
+				transform: rotate(360deg);
+				z-index: 2;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+		.project__copy { @include rem(padding, 0 40px); max-width: 690px; }
 			.project__link { }
 
 		.project--media-right {

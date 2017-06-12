@@ -22,7 +22,16 @@
 .u-txt-right { text-align: right; }
 .u-txt-center { text-align: center; }
 .u-list-clear { clear: both; }
-.u-screen-reader { display: block !important; left: -9999em !important; position: absolute !important; top: -9999em !important; }
+.u-screen-reader {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
 .u-img-responsive-width { width: 100%; }
 .u-font-heading { font-family: $font-heading; }
 .u-font-body { font-family: $font-body; }

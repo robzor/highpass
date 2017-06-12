@@ -15,7 +15,7 @@
 
 // Links
 .editorial a { color: $colour-primary; }
-	.editorial a:hover { color: $colour-body; }
+	.editorial a:hover { color: $colour-link-hover; }
 
 .editorial p { @include font-size(16); @include rem(margin-bottom, 16px); line-height: 1.5; }
 

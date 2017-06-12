@@ -3,26 +3,28 @@
 <head>
 	<title>highpass -- Robin Hodges, Senior Front-End Developer</title>
 
-	<link href="//fonts.googleapis.com/css?family=Didact+Gothic|Reem+Kufi" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
 	<link rel="stylesheet" href="/assets/site_css/global.css">
 </head>
 <body>
 
-	<header class="site-header site-wrapper site-wrapper--body-text" role="banner">
+	<header class="site-header site-wrapper" role="banner">
 		<div class="site-header__title" itemscope itemtype="http://schema.org/Organization">
 			<img class="site-header__logo-img" itemprop="logo" src="/assets/site_images/logo-site.svg" alt="highpass" />
-			<h1 class="site-header__logo-txt" itemprop="name">highpass</h1>
+			<h1 class="site-header__logo-txt u-screen-reader" itemprop="name">highpass</h1>
 		</div>
-		<div class="site-header__intro editorial" itemscope itemtype="http://schema.org/Person">
-			<p>I'm <span itemprop="name">Robin Hodges</span>, a <span itemprop="role">Senior Front-End Developer</span>, <em>Craft CMS</em> specialist and solution architect with 10 years experience across various industries, from third-sector organisations and charities to multinational corporations.</p>
-		</div>
-		<div class="site-header__contact editorial">
-			<p>I'm currently <strong class="site-header__availability-status">available</strong> for project consultancy and website/applications builds.</p>
-			<p>hi at highpass dot co dot uk</p>
-		</div>
+		<div class="site-header__copy">
+			<div class="site-header__intro editorial" itemscope itemtype="http://schema.org/Person">
+				<p>I'm <span itemprop="name">Robin Hodges</span>, a <span itemprop="role">Senior Front-End Developer</span>, <em>Craft CMS</em> specialist and solution architect with 10 years experience across various industries, from third-sector organisations and charities to multinational corporations.</p>
+			</div>
+			<div class="site-header__contact editorial">
+				<p>I'm currently <strong class="site-header__availability-status">available</strong> for project consultancy and website/applications builds.</p>
+				<p class="site-header__contact-link">hi at highpass dot co dot uk</p>
+			</div>
+		</div><!-- /.site-header__copy -->
 	</header>
 
-	<main class="site-body" role="main">
+	<main class="site-body site-wrapper site-wrapper--no-padding" role="main">
 		<article class="project project--media-left" itemscope itemtype="http://schema.org/WebSite">
 			<figure class="project__media">
 				<a href="https://democracyclub.org.uk/" target="_blank"><img class="project__media-img" itemprop="image" src="/assets/site_images/democracy-club.jpg" alt="Democracy Club"></a>
@@ -37,9 +39,9 @@
 				<a class="project__link" href="https://democracyclub.org.uk/" itemprop="url" target="_blank">Democracy Club</a>
 			</div>
 		</article>
-		<!-- <article class="project project--media-right" itemscope itemtype="http://schema.org/SoftwareApplication">
+		<article class="project project--media-right" itemscope itemtype="http://schema.org/SoftwareApplication">
 			<figure class="project__media">
-				<img class="project__media-img" itemprop="image" src="/assets/site_images/" alt="Société Générale Execution">
+				<img class="project__media-img" itemprop="image" src="/assets/site_images/socgen.jpg" alt="Société Générale Execution">
 				<figcaption class="project__media-description">Société Générale Execution example</figcaption>
 			</figure>
 			<div class="project__copy">
@@ -50,7 +52,7 @@
 					<p>I authored a complete documentation and implementation guide using <a href="http://www.mkdocs.org/">MkDocs</a>, hosted on their internal intranet.</p>
 				</div>
 			</div>
-		</article> -->
+		</article>
 		<article class="project project--media-left" itemscope itemtype="http://schema.org/WebSite">
 			<figure class="project__media">
 				<a href="http://sinatra.com/100facts/" target="_blank"><img class="project__media-img" itemprop="image" src="/assets/site_images/sinatra-100.jpg" alt="Frank Sinatra 100"></a>
