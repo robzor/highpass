@@ -669,7 +669,13 @@ ul.al-anchor-list li {
 
 .site-footer {
   padding-top: 20px;
-  padding-top: 1.25rem; }
+  padding-top: 1.25rem;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  font-size: 14px;
+  font-size: 0.875rem; }
 
 .project {
   padding: 50px 0;

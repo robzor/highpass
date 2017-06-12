@@ -315,7 +315,7 @@
 			</div>
 			<div class="site-header__contact editorial">
 				<p>I'm currently <strong class="site-header__availability-status">available</strong> for project consultancy and website/applications builds.</p>
-				<p class="site-header__contact-link">hi at highpass dot co dot uk</p>
+				<p class="site-header__contact-link">hi <strong>at</strong> highpass <strong>dot</strong> co <strong>dot</strong> uk</p>
 			</div>
 		</div><!-- /.site-header__copy -->
 	</header>
@@ -421,8 +421,8 @@
 	</main><!-- /.site-body -->
 
 	<footer class="site-footer site-wrapper" role="contentinfo">
-		<p>&copy; <?php echo date("Y"); ?> highpass</p>
-		<p>hi at highpass dot co dot uk</p>
+		<p>&copy;<?php echo date("Y"); ?> highpass</p>
+		<p>hi <strong>at</strong> highpass <strong>dot</strong> co <strong>dot</strong> uk</p>
 	</footer><!-- /.site-footer -->
 
 	<script>

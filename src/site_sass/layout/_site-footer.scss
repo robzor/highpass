@@ -2,4 +2,9 @@
 // Site Footer (.site-footer)
 //
 //***********************************************************************/
-.site-footer { @include rem(padding-top, 20px); }
+.site-footer {
+	@include rem(padding-top, 20px);
+	display: flex;
+	justify-content: space-between;
+	@include font-size(14);
+}
