@@ -3,14 +3,25 @@
 //
 //***********************************************************************/
 .site-header {
-	display: flex;
-	@include rem(padding, 50px);
-	max-width: 850px;
+	@include rem(padding-bottom, 30px);
+
+	@include bp(medium) {
+		max-width: 850px;
+		display: flex;
+		@include rem(padding, 50px);
+	}
 }
 
-	.site-header__title { text-align: center; @include rem(margin-right, 50px); }
+	.site-header__title {
+		text-align: center;
+		@include rem(margin-bottom, 40px);
 
-		.site-header__logo-img { width: 200px; flex-basis: 200px; }
+		@include bp(medium) {
+			@include rem(margin, 0 50px 0 0);
+		}
+	}
+
+		.site-header__logo-img { width: 200px; }
 		.site-header__logo-txt { }
 
 	.site-header__copy { max-width: 690px; }

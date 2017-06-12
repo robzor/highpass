@@ -24,7 +24,7 @@
 		</div><!-- /.site-header__copy -->
 	</header>
 
-	<main class="site-body site-wrapper site-wrapper--no-padding" role="main">
+	<main class="site-body site-wrapper" role="main">
 		<article class="project project--media-left" itemscope itemtype="http://schema.org/WebSite">
 			<figure class="project__media">
 				<a href="https://democracyclub.org.uk/" target="_blank"><img class="project__media-img" itemprop="image" src="/assets/site_images/democracy-club.jpg" alt="Democracy Club"></a>
