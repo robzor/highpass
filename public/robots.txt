@@ -1,0 +1,3 @@
+# robots.txt for https://highpass.co.uk/
+
+Sitemap: https://highpass.co.uk/sitemap.xml
