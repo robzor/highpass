@@ -337,6 +337,8 @@
 				<a class="project__link" href="https://democracyclub.org.uk/" itemprop="url" target="_blank">Democracy Club</a>
 			</div>
 		</article>
+		<?php
+		/*
 		<article class="project project--media-right" itemscope itemtype="http://schema.org/SoftwareApplication">
 			<figure class="project__media">
 				<img class="project__media-img" itemprop="image" src="/assets/site_images/socgen.jpg" alt="Société Générale Execution">
@@ -351,6 +353,8 @@
 				</div>
 			</div>
 		</article>
+		*/
+		?>
 		<article class="project project--media-left" itemscope itemtype="http://schema.org/WebSite">
 			<figure class="project__media">
 				<a href="http://sinatra.com/100facts/" target="_blank"><img class="project__media-img" itemprop="image" src="/assets/site_images/sinatra-100.jpg" alt="Frank Sinatra 100"></a>
@@ -379,6 +383,8 @@
 				<a class="project__link" href="http://www.housing.org.uk/" itemprop="url" target="_blank">National Housing Federation</a>
 			</div>
 		</article>
+		<?php
+		/*
 		<article class="project project--media-left" itemscope itemtype="http://schema.org/SoftwareApplication">
 			<figure class="project__media">
 				<img class="project__media-img" itemprop="image" src="/assets/site_images/groupme.jpg" alt="GroupMe Microsites">
@@ -406,6 +412,8 @@
 				<a class="project__link" href="http://twobirdsbridesmaid.com/" itemprop="url" target="_blank">twobirds Bridesmaid</a>
 			</div>
 		</article>
+		*/
+		?>
 		<article class="project project--media-left" itemscope itemtype="http://schema.org/WebSite">
 			<figure class="project__media">
 				<a href="https://www.royalfree.nhs.uk/" target="_blank"><img class="project__media-img" itemprop="image" src="/assets/site_images/royalfree.jpg" alt="Royal Free Hospital"></a>
