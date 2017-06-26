@@ -355,7 +355,7 @@
 		</article>
 		*/
 		?>
-		<article class="project project--media-left" itemscope itemtype="http://schema.org/WebSite">
+		<article class="project project--media-right" itemscope itemtype="http://schema.org/WebSite">
 			<figure class="project__media">
 				<a href="http://sinatra.com/100facts/" target="_blank"><img class="project__media-img" itemprop="image" src="/assets/site_images/sinatra-100.jpg" alt="Frank Sinatra 100"></a>
 				<figcaption class="project__media-description">Frank Sinatra 100</figcaption>
@@ -369,7 +369,7 @@
 				<a class="project__link" href="http://sinatra.com/100facts/" itemprop="url" target="_blank">Frank Sinatra 100</a>
 			</div>
 		</article>
-		<article class="project project--media-right" itemscope itemtype="http://schema.org/WebSite">
+		<article class="project project--media-left" itemscope itemtype="http://schema.org/WebSite">
 			<figure class="project__media">
 				<a href="http://www.housing.org.uk/" target="_blank"><img class="project__media-img" itemprop="image" src="/assets/site_images/national-housing-federation.jpg" alt="National Housing Federation"></a>
 				<figcaption class="project__media-description">National Housing Federation</figcaption>
@@ -414,7 +414,7 @@
 		</article>
 		*/
 		?>
-		<article class="project project--media-left" itemscope itemtype="http://schema.org/WebSite">
+		<article class="project project--media-right" itemscope itemtype="http://schema.org/WebSite">
 			<figure class="project__media">
 				<a href="https://www.royalfree.nhs.uk/" target="_blank"><img class="project__media-img" itemprop="image" src="/assets/site_images/royalfree.jpg" alt="Royal Free Hospital"></a>
 				<figcaption class="project__media-description">Royal Free Hospital</figcaption>
