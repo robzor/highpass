@@ -75,8 +75,8 @@ gulp.task('clean-js', function() {
 gulp.task('sass', function() {
   return gulp.src(paths.sass)
     .pipe(plumber())
-    .pipe(sass({ style: 'expanded', "sourcemap=none": true }))
-    .pipe(autoprefixer('> 1%', 'last 2 versions', 'Firefox ESR', 'ie 7', 'ie 8', 'ie 9', 'Opera 12.1', 'Android 4'))
+    .pipe(sass({ outputStyle: 'compressed' }))
+    .pipe(autoprefixer('last 2 versions'))
     .pipe(pixrem({ atrules: true }))
     .pipe(gulp.dest('public/assets/site_css/'))
     .pipe(livereload());
